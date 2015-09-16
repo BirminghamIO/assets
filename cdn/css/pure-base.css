@@ -1,0 +1,52 @@
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+  /* Set your content font stack here: */
+  font-family: 'Open Sans', sans-serif;
+}
+
+.network-navigation .pure-menu,
+.project-navigation .pure-menu {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.l-content {
+  margin: 0 auto;
+  max-width: 80em;
+}
+
+.network-navigation {
+  background-color: #292929;
+}
+
+  .network-navigation .pure-menu-heading {
+    font-size: 200%;
+    padding-left: 0;
+    text-transform: inherit;
+  }
+
+  .network-navigation .pure-menu-link {
+    color: #ffffff;
+  }
+
+  .network-navigation .pure-menu-selected {
+    background-color: #FEE22D;
+  }
+
+.project-navigation {
+  background-color: #FEE22D;
+  margin-bottom: 1em;
+}
+
+  .project-navigation .pure-menu-heading {
+    font-size: 300%;
+    padding-left: 0;
+  }
+
+@media (min-width: 47.999em) {
+
+  .network-navigation .custom-menu,
+  .project-navigation .custom-menu {
+    text-align: right;
+  }
+
+}
