@@ -17,6 +17,10 @@ This repo contains all the public assets and resources made available for projec
     |   |-- logos
     |   |-- mock-ups
 
+## Semantic UI
+
+This project uses Semantic UI. More information on how it works can be found on their [getting started](http://semantic-ui.com/introduction/getting-started.html) guide
+
 ## To do
 
 - [x] import logos and mock-ups supplied by Andy Roberts
