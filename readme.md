@@ -32,3 +32,4 @@ This project uses Semantic UI. More information on how it works can be found on 
     - [ ] Open graph/twitter preview image
 - [ ] mock-up for base layout
     - [ ] mock-up for Planet Birmingham
+- [ ] complete [style guide](https://app.frontify.com/d/SuVGfmysNzM1/birmingham-io-style-guide).
