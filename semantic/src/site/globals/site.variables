@@ -1,3 +1,7 @@
 /*******************************
      User Global Variables
 *******************************/
+
+@fontName          : 'Open Sans';
+@headerFont        : 'Yanone Kaffeesatz', sans-serif;
+@googleFontRequest : 'Yanone+Kaffeesatz|Open+Sans:400,700italic,700,400italic';
