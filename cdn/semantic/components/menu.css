@@ -1983,9 +1983,3 @@ Floated Menu / Item
          Site Overrides
 *******************************/
 
-.network-navigation.ui.menu {
-  border: 0;
-  box-shadow: none;
-  border-radius: 0;
-  min-height: 4em;
-}

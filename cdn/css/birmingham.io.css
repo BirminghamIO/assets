@@ -1,14 +1,118 @@
 .network-bar {
-  background: rgba(43,43,43,1);
-  background: -moz-linear-gradient(top, rgba(43,43,43,1) 0%, rgba(74,74,74,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(43,43,43,1)), color-stop(100%, rgba(74,74,74,1)));
-  background: -webkit-linear-gradient(top, rgba(43,43,43,1) 0%, rgba(74,74,74,1) 100%);
-  background: -o-linear-gradient(top, rgba(43,43,43,1) 0%, rgba(74,74,74,1) 100%);
-  background: -ms-linear-gradient(top, rgba(43,43,43,1) 0%, rgba(74,74,74,1) 100%);
-  background: linear-gradient(to bottom, rgba(43,43,43,1) 0%, rgba(74,74,74,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2b2b', endColorstr='#4a4a4a', GradientType=0 );
+  background: rgba(43, 43, 43, 1);
+  background: -moz-linear-gradient(top, rgba(43, 43, 43, 1) 0%, rgba(74, 74, 74, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(43, 43, 43, 1)), color-stop(100%, rgba(74, 74, 74, 1)));
+  background: -webkit-linear-gradient(top, rgba(43, 43, 43, 1) 0%, rgba(74, 74, 74, 1) 100%);
+  background: -o-linear-gradient(top, rgba(43, 43, 43, 1) 0%, rgba(74, 74, 74, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(43, 43, 43, 1) 0%, rgba(74, 74, 74, 1) 100%);
+  background: linear-gradient(to bottom, rgba(43, 43, 43, 1) 0%, rgba(74, 74, 74, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b2b2b', endColorstr='#4a4a4a', GradientType=0);
+}
+
+.network-logo img {
+  max-width: 100%;
+  max-height: 45px;
+  margin: 1em 0 0 0;
+}
+
+.network-navigation.ui.menu {
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+  min-height: 5em;
+  background: inherit;
+}
+
+.network-navigation.ui.menu .item {
+  background: inherit;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.network-navigation.ui.menu .item.network:hover {
+  background-color: #ff5c43;
+  color: #ffffff;
+}
+
+.network-navigation.ui.menu .item.network.active {
+  background-color: #ff5c43;
+  color: #ffffff;
+}
+
+.network-navigation.ui.menu .item.freelancers:hover {
+  background-color: #00B9FF;
+}
+
+.network-navigation.ui.menu .item.freelancers.active {
+  background-color: #00B9FF;
+}
+
+.network-navigation.ui.menu .item.planet:hover {
+  background-color: #69368F;
+  color: #ffffff;
+}
+
+.network-navigation.ui.menu .item.planet.active {
+  background-color: #69368F;
+  color: #ffffff;
+}
+
+.network-navigation.ui.menu .item.calendar:hover {
+  background-color: #C8D32F;
+}
+
+.network-navigation.ui.menu .item.calendar.active {
+  background-color: #C8D32F;
+}
+
+.network-navigation.ui.menu .item.community:hover {
+  background-color: #2B668F;
+  color: #ffffff;
+}
+
+.network-navigation.ui.menu .item.community.active {
+  background-color: #2B668F;
+  color: #ffffff;
+}
+
+.project-bar .ui.secondary.menu .header.item {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
 }
 
 .project-bar.network {
   background: #ff5c43;
+}
+.project-bar.network .header.item a,
+.project-bar.network .ui.menu a.item {
+  color: #ffffff;
+}
+
+.project-bar.freelancers {
+  background: #00B9FF;
+}
+
+.project-bar.planet {
+  background: #69368F;
+}
+.project-bar.planet .header.item a,
+.project-bar.planet .ui.menu a.item {
+  color: #ffffff;
+}
+
+.project-bar.calendar {
+  background: #C8D32F;
+}
+
+.project-bar.community {
+  background: #2B668F;
+}
+.project-bar.community .ui.menu a.item {
+  color: #ffffff;
+}
+
+.project-bar .ui.grid > .row {
+  padding: 0;
 }
