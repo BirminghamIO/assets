@@ -116,3 +116,7 @@
 .project-bar .ui.grid > .row {
   padding: 0;
 }
+
+.ui.container.content {
+  margin: 2em 0;
+}
