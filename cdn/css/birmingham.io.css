@@ -93,6 +93,10 @@
 .project-bar.freelancers {
   background: #00B9FF;
 }
+.project-bar.freelancers .header.item a,
+.project-bar.freelancers .ui.menu a.item {
+  color: #ffffff;
+}
 
 .project-bar.planet {
   background: #69368F;
